@@ -288,7 +288,7 @@ export default function Layout({ children }) {
         <div className="">
           {owner ? `Contract's Balance: ${contractBalance}` : ''}
         </div>
-        <footer className={styles.footer}>Made with ❤️ by Saleem</footer>
+        <footer className={styles.footer}>Made with ❤️ by <a href="https://github.com/thesaleem" target='_blank'>Saleem</a></footer>
       </div>
     </WalletConnect.Provider>
   );
