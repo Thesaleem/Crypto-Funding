@@ -12,7 +12,7 @@ export default function Main ({handleClick}) {
             <button className={styles.button} onClick={() => handleClick(true)}>Start campaign</button>
             </div>
             <div className={styles.image}>
-            <Image src="../pic.png" alt=""  />
+                <Image src="/pic.png" alt="" width={700} height={500}  />
             </div>
       </div>
     )
